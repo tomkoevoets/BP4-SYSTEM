@@ -26,17 +26,32 @@ https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/5af5967b-d9d8-410e-bb
 
 
 **Benodigdheden**
+- arduino
+- breadboard
+- 8 leds
+- 10 kabels 
+- 8 resistors (220 Weerstand)
 
+  
 **Schets**
+![image](https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/7e7617ae-b297-4c0a-8b43-73d3e7916bfd)
 
 **Demo**
+
 
 ## Opdracht 3
 
 
 **Benodigdheden**
+- arduino
+- breadboard
+- 1 button
+- 2 leds
+- 6 kabels 
+- 2 resistors (weerstand 220), 1 resistor (weerstand 10kΩ)
 
 **Schets**
+![image](https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/3d32e6b0-2622-4299-b8d6-0f89f4a2f972)
 
 **Demo**
 
