@@ -7,7 +7,7 @@ const int ledPin2 = 10;
 // aanmaken waardes om status button bij te houden via huidig, vorige en teller
 int buttonState = 0;      
 int lastButtonState = 0; 
-int i = 0;
+int count = 0;
 
 void setup() {
   // zet leds in output modus
@@ -25,7 +25,7 @@ void loop() {
   if (buttonState != lastButtonState) {
     // als de knop is ingedrukt verhoog de teller
     if (buttonState == HIGH) {
-      i++;
+      count++;
       
       // voer de ledFun uit
       ledFun();
@@ -43,7 +43,7 @@ void ledFun() {
   als de teller even is, zet led1 uit en led2 aan met het gebruik van modulus-oporator
   https://www.w3schools.com/cpp/cpp_operators.asp
   */
-  if (i % 2 == 0) {
+  if (count % 2 == 0) {
         digitalWrite(ledPin1, LOW);
         digitalWrite(ledPin2, HIGH);
       // als de teller oneven is zet led1 aan en led2 uit

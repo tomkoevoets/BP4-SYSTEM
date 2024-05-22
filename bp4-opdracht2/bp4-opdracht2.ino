@@ -7,7 +7,7 @@ const int ledPins[] = {13, 12, 11, 10, 7, 6, 3, 2};
  */
 const int numLeds = sizeof(ledPins) / sizeof(ledPins[0]);  
  // Wacht 75 milliseconden tussen elke actie
-const int delayTime = 75; 
+const int delayTime = 100; 
 
 void setup() {
   // Zet alle pinnen in de lijst ledPins in de OUTPUT stand
