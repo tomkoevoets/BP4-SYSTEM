@@ -9,6 +9,8 @@ int buttonState = 0;
 int lastButtonState = 0; 
 int count = 0;
 
+const int delayTime = 50; 
+
 void setup() {
   // zet leds in output modus
   pinMode(ledPin1, OUTPUT);
@@ -30,7 +32,7 @@ void loop() {
       // voer de ledFun uit
       ledFun();
       
-      delay(50); 
+      delay(delayTime); 
     }
   }
   // sla de huidige knopstatus op voor de volgende loop
