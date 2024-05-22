@@ -39,6 +39,11 @@ https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/5af5967b-d9d8-410e-bb
 **Demo**
 
 
+https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/e09a02ae-c26c-47dc-9c84-4c030eb7e0ca
+
+
+
+
 ## Opdracht 3
 
 
@@ -55,14 +60,32 @@ https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/5af5967b-d9d8-410e-bb
 
 **Demo**
 
+
+https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/63b65e67-69fd-4f82-b51e-87912a7dbdf5
+
+
+
 ## Opdracht 4
 
 
 **Benodigdheden**
+- arduino
+- breadboard
+- 1 Pot meter
+- 6 leds
+- 17 kabels 
+- 6 resistors (weerstand 220)
 
 **Schets**
+![image](https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/4e7b8a50-4dda-4935-84ae-ba0a8f7ae607)
+
 
 **Demo**
+
+
+https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/cb556c13-7df8-460f-918e-4af96dd4e623
+
+
 
 ## Opdracht 5
 
