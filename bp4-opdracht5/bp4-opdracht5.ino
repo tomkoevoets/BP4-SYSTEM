@@ -6,7 +6,7 @@ Servo myServo;  // Definieer een Servo object
 const int buttonPin1 = 12;  // Eerste drukknop
 const int buttonPin2 = 4;  // Tweede drukknop
 const int servoEngine = 2;  // ServoMotor
-const int dbDelay = 100;
+const int dbDelay = 100; // debounce delay -> informatie hierover komt uit de debounce examples
 
 void setup() {
   myServo.attach(servoEngine);  // Sluit de servomotor aan op servo_pin
