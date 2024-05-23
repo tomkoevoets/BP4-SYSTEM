@@ -6,6 +6,7 @@ Servo myServo;  // Definieer een Servo object
 const int buttonPin1 = 12;  // Eerste drukknop
 const int buttonPin2 = 4;  // Tweede drukknop
 const int servoEngine = 2;  // ServoMotor
+const int dbDelay = 100;
 
 void setup() {
   myServo.attach(servoEngine);  // Sluit de servomotor aan op servo_pin
@@ -39,7 +40,7 @@ void moveServo(int startPos, int endPos, int duration, int pauseDuration = 0) {
 
 void loop() {
   bool button1State = digitalRead(buttonPin1);
-  delay(100); // Delay van 100 milliseconden het tegerlijk indrukken van de knoppen tijd heeft om te registreren
+  delay(dbDelay); // Delay zodat het tegerlijk indrukken van de knoppen tijd heeft om te registreren
   bool button2State = digitalRead(buttonPin2);
 
   if (button1State && button2State) {
