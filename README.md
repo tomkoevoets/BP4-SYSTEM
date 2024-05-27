@@ -50,7 +50,7 @@ https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/e09a02ae-c26c-47dc-9c
 **Benodigdheden**
 - arduino
 - breadboard
-- 1 button
+- 1 drukknop
 - 2 leds
 - 6 kabels 
 - 2 resistors (weerstand 220), 1 resistor (weerstand 10kΩ)
@@ -91,16 +91,48 @@ https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/cb556c13-7df8-460f-91
 
 
 **Benodigdheden**
+- arduino
+- breadboard
+- 2 drukknoppen
+- 1 servomotor
+- 9 kabels 
+- 2 resistors (weerstand 10kΩ)
 
 **Schets**
+![image](https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/d7d31c23-d5a8-4d05-874f-ba99d1283a3f)
+
 
 **Demo**
+Vanwege de uploadbeperkingen van gmail heb ik het in 3 losse videos.
+
+1. 
+
+https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/34175be4-8854-4241-862b-3072056d6dc7
+
+2. 
+
+https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/f992625e-a25e-428f-878d-d2742adaa6b5
+
+3. 
+
+https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/fc31d8b5-a5ad-45ca-a76b-77638e685fec
+
+
+
 
 ## Opdracht 6
 
 
 **Benodigdheden**
+- arduino
+- breadboard
+- 2 drukknoppen
+- 1 LCD scherm I2C 
+- 10 kabels 
+- 2 resistors (weerstand 10kΩ)
 
 **Schets**
+![image](https://github.com/tomkoevoets/BP4-SYSTEM/assets/143998150/549eb811-fed6-4085-811b-165e14100ac4)
+
 
 **Demo**
