@@ -15,28 +15,24 @@ void setup() {
   // zet leds in output modus
   pinMode(ledPin1, OUTPUT);
   pinMode(ledPin2, OUTPUT);
-  // zet button in input modus
-  pinMode(buttonPin, INPUT);
+  pinMode(buttonPin, INPUT);   // zet button in input modus
 }
 
 void loop() {
-  // lees de huidige status van de knop
-  buttonState = digitalRead(buttonPin);
+  
+  buttonState = digitalRead(buttonPin);  // lees de huidige status van de knop
 
   // als de status van de knop veranderd is ten opzichte van de laatste status
   if (buttonState != lastButtonState) {
     // als de knop is ingedrukt verhoog de teller
     if (buttonState == HIGH) {
       count++;
-      
-      // voer de ledFun uit
-      ledFun();
-      
+      ledFun();   // voer de ledFun uit
       delay(delayTime); 
     }
   }
-  // sla de huidige knopstatus op voor de volgende loop
-  lastButtonState = buttonState;
+  
+  lastButtonState = buttonState;   // sla de huidige knopstatus op voor de volgende loop
 }
 
 // functie om de leds aan en uit te zetten

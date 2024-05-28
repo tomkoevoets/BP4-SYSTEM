@@ -13,21 +13,22 @@ void setup() {
 }
 
 void loop() {
-  // voer de led methode uit
-  ledFun();
-  // vertraag zodat de veranderingen beter zichtbaar zijn
-  delay(delayTime);
+  
+  ledFun();  // voer de led methode uit
+  delay(delayTime);  // vertraag zodat de veranderingen beter zichtbaar zijn
 }
 
 // methode om de leds aan te zetten of uit
-void ledFun () {
-  // het lezen van in welke stand de potmeter staat
+void ledFun() {
+  /*
+    Zet de leds aan of uit afhankelijk van de stand van de potmeter
+    - Lees de waarde van de potmeter
+    - Gebruik mapping om de waarde van de potmeter om te zetten naar het aantal aan te zetten leds
+    - Zet de leds aan of uit met behulp van een for-loop
+  */
   int potVal = analogRead(potMeterPin);
-
-  // gebruik mapping om aan de hand van de potVal het aantal aan te zetten leds te bepalen
   int ledCount = map(potVal, 0, 1023, 0, numLeds);
 
-  // forloop die ledCount gebruikt om leds aan en uit te zetten
   for (int i = 0; i < numLeds; i++) {
     if (i < ledCount) {
       digitalWrite(ledPins[i], HIGH); 
@@ -36,3 +37,4 @@ void ledFun () {
     }
   } 
 }
+

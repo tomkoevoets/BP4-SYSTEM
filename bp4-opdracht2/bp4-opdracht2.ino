@@ -1,13 +1,13 @@
 // globale waardes
-//  een lijst met pinnen waarop de LEDs zijn aangesloten
-const int ledPins[] = {13, 12, 11, 10, 7, 6, 3, 2};
-/* Bereken het aantal LEDs door het aantal bytes van alle elementen te delen door het aantal bytes van 1 element 
+const int ledPins[] = {13, 12, 11, 10, 7, 6, 3, 2};   //  een lijst met pinnen waarop de LEDs zijn aangesloten
+
+/* 
+ Bereken het aantal LEDs door het aantal bytes van alle elementen te delen door het aantal bytes van 1 element 
  sizeof berekend dus in bytes waardoor het werkt om alle elementen te delen door 1 (op positie 0 in de array) 
  https://www.w3schools.com/cpp/cpp_arrays_size.asp
  */
 const int numLeds = sizeof(ledPins) / sizeof(ledPins[0]);  
- // Wacht 75 milliseconden tussen elke actie
-const int delayTime = 100; 
+const int delayTime = 100;   // Wacht 100 milliseconden tussen elke actie
 
 void setup() {
   // Zet alle pinnen in de lijst ledPins in de OUTPUT stand
